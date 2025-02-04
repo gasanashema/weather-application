@@ -558,6 +558,7 @@ video {
   width: 100%;
 }
 
+
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
@@ -767,6 +768,7 @@ video {
 }
 
 .text-white {
+
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
