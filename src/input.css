@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .main-bg{
+        @apply before:content-none before:absolute before:w-full before:h-screen before:bg-[rgba(0,0,0,0.15)] backdrop-blur-lg
+    }
+}
